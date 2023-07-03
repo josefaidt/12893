@@ -32,6 +32,13 @@
       "StackName": "amplify-12893-next-112227",
       "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-12893-next-112227/91c358c0-19ce-11ee-aa76-0e0820eb2815",
       "AmplifyAppId": "d39g7yan7zf4eq"
+    },
+    "categories": {
+      "function": {
+        "12893e4a7af7c": {
+          "secretsPathAmplifyAppId": "d39g7yan7zf4eq"
+        }
+      }
     }
   }
 }
