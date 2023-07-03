@@ -5,7 +5,7 @@ const aws = require('aws-sdk');
 
 const { Parameters } = await (new aws.SSM())
   .getParameters({
-    Names: ["my_secret"].map(secretName => process.env[secretName]),
+    Names: ["my_secret","my_new_secret"].map(secretName => process.env[secretName]),
     WithDecryption: true,
   })
   .promise();

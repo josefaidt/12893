@@ -1,6 +1,7 @@
 {
   "lambdaLayers": [],
   "secretNames": [
-    "my_secret"
+    "my_secret",
+    "my_new_secret"
   ]
 }
