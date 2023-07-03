@@ -16,7 +16,7 @@
         "12893e4a7af7c": {
           "secretsPathAmplifyAppId": "d39g7yan7zf4eq",
           "deploymentBucketName": "amplify-12893-dev-111636-deployment",
-          "s3Key": "amplify-builds/12893e4a7af7c-325867486c6f556c764e-build.zip"
+          "s3Key": "amplify-builds/12893e4a7af7c-50707a614479544f6651-build.zip"
         }
       }
     }

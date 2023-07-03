@@ -73,28 +73,6 @@
             "REGION": {
               "Ref": "AWS::Region"
             },
-            "my_secret": {
-              "Fn::Join": [
-                "",
-                [
-                  {
-                    "Fn::Sub": [
-                      "/amplify/${appId}/${env}/AMPLIFY_${functionName}_",
-                      {
-                        "appId": {
-                          "Ref": "secretsPathAmplifyAppId"
-                        },
-                        "env": {
-                          "Ref": "env"
-                        },
-                        "functionName": "12893e4a7af7c"
-                      }
-                    ]
-                  },
-                  "my_secret"
-                ]
-              ]
-            },
             "my_new_secret": {
               "Fn::Join": [
                 "",
